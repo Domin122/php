@@ -18,7 +18,11 @@
     $p =  ($a + $b + $c)/2;
     $s = $p*($p-$a)*($p-$b)*($p-$c);
     $s_w = sqrt($s);
-    echo $s_w
+    echo "Pole trójkąta o bokach: <br>";
+    echo "a: $a <br>";
+    echo "b: $b <br>";
+    echo "c: $c <br>";
+    echo "wynosi : $s_w"
     ?>
 </section>
 </body>
