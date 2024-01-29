@@ -1,0 +1,29 @@
+body{
+    background-color: blanchedalmond;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
+footer{
+    background-color: brown;
+    color: bisque;
+    text-align: center;
+}
+section {
+    border: 1px solid brown;
+    margin: 20px;
+    padding: 20px;
+}
+
+.zielony {
+    color: green;
+}
+.czerwony {
+    color: red;
+}
+.niebieski {
+    color: blue;
+}
+table, th, td {
+    border:1px solid black;
+}
