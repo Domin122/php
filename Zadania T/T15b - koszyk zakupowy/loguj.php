@@ -8,7 +8,7 @@ if (isset($_SESSION['log'])) {
         header('location: strona.php');
         exit();
     } else {
-        echo "Nieprawidłowe dane logowania<br>";
+        echo 'Nieprawidłowe dane logowania<br>';
     }
 }
 ?>
