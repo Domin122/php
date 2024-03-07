@@ -1,0 +1,11 @@
+1. SELECT nazwa,potoczna FROM grzyby WHERE jadalny = 1
+
+
+2. SELECT g.nazwa, g.potoczna, r.nazwa AS rodzina 
+   FROM grzyby g 
+   JOIN rodzina r ON g.rodzina_id = r.id 
+   WHERE potrawy_id = 1
+
+3. SELECT potoczna,nazwa_pliku from grzyby
+
+4. ALTER TABLE rodzina ADD COLUMN opis TEXT

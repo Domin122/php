@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, serif;
+}
+
+#blok-miniatury {
+    background-color: Sienna;
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+
+#blok-tytulowy {
+    background-color: Sienna;
+    color: orange;
+    height: 100px;
+    width: 80%;
+    float: left;
+}
+
+#blok-lewy {
+    background-color: BurlyWood;
+    height: 700px;
+    width: 70%;
+    float: left;
+}
+
+#blok-prawy {
+    background-color: BurlyWood;
+    height: 700px;
+    width: 30%;
+    float: left;
+}
+
+#stopka {
+    background-color: Sienna;
+    color: orange;
+    text-align: center;
+    clear: left;
+}
+
+#blok-miniatury img {
+    margin: 7px;
+    padding: 5px;
+    border: 1px solid RosyBrown;
+}
+
+#blok-miniatury img:hover {
+    border-color: Maroon;
+}
+
+#blok-lewy img {
+    margin: 7px;
+    padding: 5px;
+    border: 1px solid RosyBrown;
+}
+
+#blok-lewy img:hover {
+    border-color: Maroon;
+}
+
