@@ -1,0 +1,44 @@
+body {
+    font-family: Garamond, serif;
+    color: white;
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: ForestGreen;
+    padding: 10px;
+    clear: both;
+}
+
+#lewy,
+#prawy {
+    background-color: ForestGreen;
+    height: 490px;
+    width: 25%;
+    font-size: 30px;
+    float: left;
+}
+
+#srodek {
+    background-color: Chocolate;
+    height: 490px;
+    width: 50%;
+    font-size: 25px;
+    float: left;
+
+}
+
+#srodek img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    float: left;
+
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    color: green;
+}

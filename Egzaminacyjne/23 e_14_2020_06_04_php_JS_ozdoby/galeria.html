@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklep</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<header>
+    <h1>Ozdoby – sklep</h1>
+</header>
+<div id="lewy">
+    <h2>OZDOBY</h2>
+    <a href="galeria.html">Galeria</a><br>
+    <a href="zamowienie.php">Zamówienie</a>
+</div>
+<div id="srodek">
+    <img src="choinka1.jpg" alt="ozdoby choinkowe">
+    <img src="mikolaj1.jpg" alt="ozdoby choinkowe">
+    <img src="renifer1.jpg" alt="ozdoby choinkowe">
+    <br> <br> <br> <br> <br> <br>
+    <p>Wybierz ozdobę w kółku</p>
+    <p id="script-output">
+        <script>
+        function wyswietlKomunikat(obraz) {
+            var komunikat = "";
+            switch (obraz) {
+                case "choinka":
+                    komunikat = "Wybrałeś choinkę. Cena 10 zł";
+                    break;
+                case "mikolaj":
+                    komunikat = "Wybrałeś mikołaja. Cena 12 zł";
+                    break;
+                case "renifer":
+                    komunikat = "Wybrałeś renifera. Cena 8 zł";
+                    break;
+                default:
+                    komunikat = "Wybierz ozdobę";
+            }
+            document.getElementById("komunikat").innerText = komunikat;
+        }
+    </script>
+    </p>
+</div>
+<div id="prawy">
+    <img src="animacja.gif" alt="animacja">
+</div>
+<footer>
+    <h3>Autor strony: Dominik Gabrysz 3ip_2</h3>
+</footer>
+</body>
+</html>
