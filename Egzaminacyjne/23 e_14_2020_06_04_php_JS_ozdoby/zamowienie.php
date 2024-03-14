@@ -45,11 +45,6 @@
 
     $sql = "INSERT INTO zamowienia (imie, nazwisko, adres_email) VALUES ('$imie', '$nazwisko', '$email')";
 
-    if ($conn->query($sql) === TRUE) {
-        echo "Nowy rekord został dodany do bazy danych";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
 
 
     $conn->close();
