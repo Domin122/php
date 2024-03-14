@@ -30,6 +30,7 @@
     $username = "root";
     $password = "";
     $dbname = "sklep";
+    ini_set('display_errors', 0);
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
