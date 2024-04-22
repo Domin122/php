@@ -1,0 +1,60 @@
+header {
+    background-color: #B284BE;
+    height: 60px;
+    font-size: 120%;
+    text-align: center;
+}
+
+
+#lewy {
+    background-color: #BCE27F;
+    height: 600px;
+    width: 25%;
+    font-size: 120%;
+    float: left;
+}
+
+
+#srodek {
+    background-color: #BCE27F;
+    height: 600px;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+
+
+#prawy {
+    background-color: #BCE27F;
+    height: 600px;
+    width: 25%;
+    font-size: 120%;
+    text-align: center;
+    float: left;
+}
+
+footer {
+    background-color: #B284BE;
+    height: 60px;
+    text-align: left;
+    padding: 5px;
+    clear: both;
+}
+
+ul {
+    margin-top: 20px;
+
+    background-color: #B284BE;
+}
+
+
+img, h2 {
+    margin-top: 50px;
+}
+
+form {
+    margin-bottom: 100px;
+}
+
+
+
